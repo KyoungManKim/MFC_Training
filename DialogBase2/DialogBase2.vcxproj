@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E03A1890-3D85-4D36-BC23-2523AAD81661}</ProjectGuid>
+    <ProjectGuid>{3087184D-7C60-4EAD-9B7E-7419AE399B08}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>DialogBase</RootNamespace>
+    <RootNamespace>DialogBase2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -179,15 +179,15 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CMyDialog.h" />
-    <ClInclude Include="DialogBase.h" />
+    <ClInclude Include="DialogBase2.h" />
+    <ClInclude Include="DialogBase2Dlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CMyDialog.cpp" />
-    <ClCompile Include="DialogBase.cpp" />
+    <ClCompile Include="DialogBase2.cpp" />
+    <ClCompile Include="DialogBase2Dlg.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -196,13 +196,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="DialogBase.rc" />
+    <ResourceCompile Include="DialogBase2.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\DialogBase.rc2" />
+    <None Include="res\DialogBase2.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\DialogBase.ico" />
+    <Image Include="res\DialogBase2.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
