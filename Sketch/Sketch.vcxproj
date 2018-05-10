@@ -179,6 +179,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CColorEdit.h" />
     <ClInclude Include="ChildView.h" />
     <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="MainFrm.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CColorEdit.cpp" />
     <ClCompile Include="ChildView.cpp" />
     <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
