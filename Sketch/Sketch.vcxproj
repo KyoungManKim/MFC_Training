@@ -180,6 +180,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ChildView.h" />
+    <ClInclude Include="CMyDialog.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Sketch.h" />
@@ -188,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="CMyDialog.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="Sketch.cpp" />
     <ClCompile Include="stdafx.cpp">
