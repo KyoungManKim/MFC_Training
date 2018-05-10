@@ -179,6 +179,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CColorEdit.h" />
     <ClInclude Include="MessageReflect2.h" />
     <ClInclude Include="MessageReflect2Dlg.h" />
     <ClInclude Include="Resource.h" />
@@ -186,6 +187,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CColorEdit.cpp" />
     <ClCompile Include="MessageReflect2.cpp" />
     <ClCompile Include="MessageReflect2Dlg.cpp" />
     <ClCompile Include="stdafx.cpp">
