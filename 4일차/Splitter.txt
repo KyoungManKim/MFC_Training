@@ -1,0 +1,9 @@
+Splitter1
+
+화면 분할 기술 정리 (Splitter )
+1. 동적 스플리터 만드는법 616~617 참고
+	A. CFrameWnd 에 멤버로 CSplitterWnd m_wndSplitter 변수 추가
+	B. CFrameWnd::OnCreateClient() 함수에서 스플리터 생성
+	   m_wndSplitter.Create(this, 2, 2, CSize(100,100), pContext);
+
+	단점 : 2*2 만 가능 , 모든 View 가 같은 종류일때만,
