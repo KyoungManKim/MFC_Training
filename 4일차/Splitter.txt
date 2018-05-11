@@ -22,3 +22,7 @@ Splitter1
 1. 클래스 마법사 - "MFC 클래스 추가" 에서 클래스 추가
 2. 원하는 기반 클래스가 없을때 .. 다른 클래스를 선택한 후 소스에서 클래스 이름 변경
 3. 단, CFormView 일때는 "리소스"가 필요
+   리소스에서 "FORMView" 추가 
+   (2)에서 만든 클래스 코드에서 2개 추가.
+     enum {IDD = IDD_FORMVIEW }		// header 파일
+     CLeftFormView::CLeftFormView() : CFormView(IDD_FORMVIEW) {}	// 생성자
