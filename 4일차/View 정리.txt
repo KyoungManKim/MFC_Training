@@ -1,3 +1,15 @@
+Doc /View 구조를 사용할때의 장점
+1. Data 의 저장관련 코드를 대부분 MFC가 제공2.
+2. 다양한 종류의 View 를 사용 가능
+ - CHtmlVIew
+ 
+ - Control View 들 - View 안에 컨트롤이 있다.
+   CEditView, CRichEditView, CListView, CTreeView
+
+ - CFormView 
+
+3.화면 분할 프로그램을 만들기 쉽다.
+
 View 클래스의 초기화 관련 함수들
 1. 생성자 :
 - 아직 View 윈도우가 생성되기 전,
@@ -21,3 +33,4 @@ CHtmlView 를 잘 사용하려면
 TreeCtrl 또는 ListCtrl 이 필요할때
 1. Dialog Base 로 만들어서 TreeCtrl 과 ListCtrl 을 사용
 2. Doc/View 구조에서 TreeView와 ListView 사용
+ - 메뉴, 상태바, 툴바 등 Dialog 로 할 수 없는 여러가지 기능 사용 가능
