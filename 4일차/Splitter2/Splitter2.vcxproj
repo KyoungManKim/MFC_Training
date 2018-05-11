@@ -179,6 +179,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CDownView.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Splitter2.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CDownView.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="Splitter2.cpp" />
     <ClCompile Include="Splitter2Doc.cpp" />
