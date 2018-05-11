@@ -16,3 +16,8 @@ View 클래스의 초기화 관련 함수들
 CHtmlView 를 잘 사용하려면
 1. CHtmlView의 멤버함수를 많이 알아야 함. (Navigate2, GoHome, GoSearch 등)
 2. 특정 상황에서 호출되는 가상함수 재 정의
+
+
+TreeCtrl 또는 ListCtrl 이 필요할때
+1. Dialog Base 로 만들어서 TreeCtrl 과 ListCtrl 을 사용
+2. Doc/View 구조에서 TreeView와 ListView 사용
