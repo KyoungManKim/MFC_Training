@@ -39,6 +39,12 @@
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CRightView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CLeftFormView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Splitter4.cpp">
@@ -57,6 +63,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="LeftView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CRightView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CLeftFormView.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

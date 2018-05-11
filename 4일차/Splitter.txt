@@ -12,3 +12,13 @@ Splitter1
 	A. CFrameWnd 에 멤버로 CSplitterWnd m_wndSplitter 변수 추가
 	B. CFrameWnd::OnCreateClient() 함수에서 스플리터 생성
 	   m_wndSplitter.CreateStatic(this, 2, 2);
+	C. Splitter 의 각 Pane 에 들어갈 View 를 직접 전달해야 한다.
+	   m_wndSplitter.CreateView( 0, 0, RUNTIME_CLASS(뷰 클래스 이름), CSize(100,100), pContext);
+	* 클래스 마법사로 "MFC 클래스 추가" 에서 새로운 View 클래스 추가
+
+
+스플리터 사용 시 새로운 뷰 클래스 추가할 때
+
+1. 클래스 마법사 - "MFC 클래스 추가" 에서 클래스 추가
+2. 원하는 기반 클래스가 없을때 .. 다른 클래스를 선택한 후 소스에서 클래스 이름 변경
+3. 단, CFormView 일때는 "리소스"가 필요
